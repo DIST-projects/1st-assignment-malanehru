@@ -131,13 +131,4 @@ The torrent-based file sharing should support:
 
 ### End of Assignments
 
----
 
-If you want, I can also:
-
-* Add **marks distribution**
-* Convert this into **lab experiment format**
-* Simplify wording for **UG students**
-* Add **folder structure suggestions**
-
-Just tell me 😊
