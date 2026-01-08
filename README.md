@@ -1,1 +1,6 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/BLFxgtNd)
+Question 1: Implement RPC and RMI in an application which has to be hosted in a cloud environment
+
+
+
+
+Question 2: Create and Distribute a torrent file to share a file in a peer tp peer computing environment
