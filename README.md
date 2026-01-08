@@ -1,5 +1,5 @@
 
-# Assignment: Implement RPC and RMI in an application which has to be hosted in a cloud environment
+# Assignment 1: Implement RPC and RMI in a Cloud Environment
 
 ## Task
 
@@ -7,23 +7,23 @@ You are required to implement a **distributed application** using
 **Remote Procedure Call (RPC)** and **Remote Method Invocation (RMI)**.
 The application must be **hosted and executed in a cloud environment**.
 
-Each implementation should allow a **client** to remotely access services provided by a **server**.
+The client should be able to remotely access services provided by the server.
 
 ---
 
 ## RPC Implementation
 
-The RPC-based application should support the following:
+Implement an RPC-based application that supports the following:
 
 * Define remote procedures on the server
 * Invoke procedures remotely from the client
-* Return results from the server
+* Receive results from the server
 
 ---
 
 ## RMI Implementation
 
-The RMI-based application should support the following:
+Implement an RMI-based application that supports the following:
 
 * Define a remote interface
 * Implement the interface in a remote object
@@ -38,36 +38,17 @@ The RMI-based application should support the following:
 
   * RPC: **Java / Python**
   * RMI: **Java**
-* Implement **client and server programs**
-* Use standard RPC and RMI libraries
+* Implement both **client and server programs**
 * Host the server application in a **cloud environment**
 * Proper error handling must be implemented
 
 ---
 
-## Program Structure
-
-* RPC Server
-* RPC Client
-* RMI Interface
-* RMI Server
-* RMI Client
-
----
-
 ## Expected Output
 
-* Successful remote procedure calls using RPC
-* Successful remote method calls using RMI
-* Correct output received from the cloud-hosted server
-
----
-
-## Learning Outcomes
-
-* Understand RPC and RMI concepts
-* Develop distributed client–server applications
-* Deploy applications in a cloud environment
+* Successful remote procedure invocation using RPC
+* Successful remote method invocation using RMI
+* Correct output returned from the cloud-hosted server
 
 ---
 
@@ -80,16 +61,83 @@ The RMI-based application should support the following:
 
 ---
 
-### End of Assignment
+---
+
+# Assignment 2: Create and Distribute a Torrent File in a Peer-to-Peer Environment
+
+## Task
+
+You are required to **create and distribute a torrent file** to share a file in a
+**peer-to-peer (P2P) computing environment**.
+
+The assignment demonstrates decentralized file sharing using BitTorrent concepts.
 
 ---
 
-This now **perfectly mirrors** your Stack & Queue README formatting ✔️
+## Torrent Creation
 
-If you want:
+The application should support the following:
 
-* Example operations added (like push/pop style)
-* Ultra-simple wording for first-years
-* Rubric / marks split
+* Select a file to be shared
+* Generate a `.torrent` file
+* Configure tracker information
+
+---
+
+## Torrent Distribution
+
+The torrent-based file sharing should support:
+
+* Seeding the file from one peer
+* Downloading the file from another peer
+* Verifying file integrity after download
+
+---
+
+## Requirements
+
+* Use any **torrent client or library** (e.g., qBittorrent, Transmission)
+* Peer-to-peer file sharing must be demonstrated
+* Use a local or public tracker
+* File integrity verification must be shown
+
+---
+
+## Expected Output
+
+* Successful creation of a `.torrent` file
+* Successful file sharing between peers
+* Complete and verified downloaded file
+
+---
+
+## Submission Guidelines
+
+* Upload the `.torrent` file (if permitted)
+* Include screenshots of seeding and downloading
+* Provide a brief description of the P2P setup
+* Do not share copyrighted or sensitive data
+
+---
+
+## Learning Outcomes
+
+* Understand RPC, RMI, and distributed systems
+* Learn cloud-based application deployment
+* Understand peer-to-peer computing concepts
+* Gain hands-on experience with torrent-based file sharing
+
+---
+
+### End of Assignments
+
+---
+
+If you want, I can also:
+
+* Add **marks distribution**
+* Convert this into **lab experiment format**
+* Simplify wording for **UG students**
+* Add **folder structure suggestions**
 
 Just tell me 😊
